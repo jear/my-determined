@@ -5,7 +5,11 @@ pip install -U determined
 pip install -U determined-cli
 
 
-export DET_MASTER=mlde.gpu03.lysdemolab.fr
+#export DET_MASTER=mlde.gpu03.lysdemolab.fr
+
+# In GL CoLo
+export DET_MASTER=192.168.201.75
+
 
 det user login admin
 det -u admin user create jerome.armand@hpe.com
