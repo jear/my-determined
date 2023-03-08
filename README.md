@@ -8,7 +8,10 @@ pip install -U determined-cli
 # pip install -U determined
 
 
-#export DET_MASTER=mlde.gpu03.lysdemolab.fr
+# In LYS lab
+export DET_MASTER=mlde.gpu01.lysdemolab.fr
+export DET_MASTER=mlde.gpu02.lysdemolab.fr
+export DET_MASTER=mlde.gpu03.lysdemolab.fr
 
 # In GL CoLo
 export DET_MASTER=192.168.201.75
