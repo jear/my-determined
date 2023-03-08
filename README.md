@@ -1,8 +1,11 @@
 # my-determined
 ```
 conda activate determined.ai-py37
-pip install -U determined
+
+# I just need the cli
 pip install -U determined-cli
+
+# pip install -U determined
 
 
 #export DET_MASTER=mlde.gpu03.lysdemolab.fr
