@@ -46,7 +46,7 @@ det experiment create --project_id $PROJECT_ID  const.yaml .
 export DET_MASTER=mlde.gpu03.lysdemolab.fr
 PROJECT_ID=`det project list pollen-workspace  --json | jq '.[0].id'`
 det experiment create --project_id $PROJECT_ID  const.yaml .
-
-
+det experiment create --project_id $PROJECT_ID  distributed.yaml .
+det experiment create --project_id $PROJECT_ID  adaptive.yaml .
 
 ```
