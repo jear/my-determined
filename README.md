@@ -30,12 +30,8 @@ det project list jear-workspace
 ------+--------------+---------------+-----------------+------------------------
     2 | jear-project |               |               1 |                      1
 
-# Some experiments in GL CoLo
-git clone https://github.com/jear/gl-det-pytorch
-cd gl-det-pytorch
-git pull
-cd tutorials/
-cd mnist_pytorch/
+# Some experiments 
+cd examples/tutorials/mnist_pytorch/
  
 det experiment create --project_id 2  const.yaml .
  
