@@ -1,4 +1,8 @@
 # my-determined
+
+
+# helm install is here https://github.com/jear/determined-helm
+
 ```
 conda activate determined.ai-py37
 
