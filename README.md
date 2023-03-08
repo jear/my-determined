@@ -21,6 +21,8 @@ export DET_MASTER=mlde.gpu01.lysdemolab.fr
 
 
 det user login pollen
+det user change-password pollen
+
 det workspace create pollen-workspace
 det project create pollen-workspace pollen-project
  
